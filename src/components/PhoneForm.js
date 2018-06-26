@@ -36,13 +36,6 @@ class PhoneForm extends Component {
           value={this.state.phone}
         />
         <br />
-        <input
-          name="sex"
-          placeholder="성별"
-          onChange={this.handleChange}
-          value={this.state.sex}
-        />
-        <br />
         <br />
         <button type="submit"> 등록</button>
       </form>
